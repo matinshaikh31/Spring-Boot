@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">  
+    
+    
+<bean id="s1" name="s1" class="com.sp.collection.Student">
+    <property name="name">
+        <list>
+          <value> yash </value>
+          <value> jay </value>
+           <value> kuldip </value>
+
+         </list>
+
+     </property>
+     
+         <property name="rollNo">
+        <set>
+          <value > 519 </value>
+          <value> 517 </value>
+           <value> 514 </value>
+
+         </set>
+
+     </property>
+     
+          
+         <property name="course">
+       <map>
+        <entry key="s1" value="Spring" />
+        <entry key="s2" value="Core" />
+        <entry key="s3" value="Java" />
+    </map>
+
+     </property>
+     
+     
+</bean>
+    
+    </beans>

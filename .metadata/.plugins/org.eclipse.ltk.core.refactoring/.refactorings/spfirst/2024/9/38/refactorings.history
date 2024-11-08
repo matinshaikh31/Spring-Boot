@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;corefirst.Test.main().c&apos; in &apos;corefirst.Test.main()&apos; to field&#x0D;&#x0A;- Original project: &apos;spfirst&apos;&#x0D;&#x0A;- Original element: &apos;corefirst.Test.main().c&apos;&#x0D;&#x0A;- Field name: &apos;c&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;c&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src\/main\/java&lt;corefirst{Test.java" name="c" selection="241 60" stamp="1726826386729" static="true" version="1.0" visibility="2"/>
+</session>
